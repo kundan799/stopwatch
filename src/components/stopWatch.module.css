@@ -1,0 +1,56 @@
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 2%, rgba(232,8,106,1) 20%, rgba(1,1,1,1) 23%);
+    /* color:red; */
+    
+    color:white
+  }
+  
+  .mainDiv {
+    text-shadow: 0px 5px 3px rgb(47, 46, 34);
+    width: 45vw;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 5vw;
+    line-height: 30px;
+    padding: 0px 30px;
+    /* color: #fff; */
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(59,148,21,1) 13%, rgba(0,212,255,1) 100%);
+  }
+  button {
+    background-color:teal;
+    border: none;
+    font-size: 4vw;
+    color: white;
+    margin-left: 10px;
+    padding: 1vw 1.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  button:hover {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 58%, rgba(253,187,45,1) 83%, rgba(253,187,45,1) 99%, rgba(45,136,20,0.7875525210084033) 100%);;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    button {
+      border: none;
+      font-size: 3.5vw;
+      margin-left: 10px;
+      padding: 1vw 1.5vw;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    .mainDiv {
+      width: 70%;
+      background-image: linear-gradient(
+        to bottom right,
+        rgba(255, 0, 170, 0.882),
+        rgb(249, 249, 14)
+      );
+    }
+  }
+  
